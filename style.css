@@ -1,0 +1,168 @@
+/*
+Theme Name: Libre 2 Child
+Theme URI: https://jmcameron/wordpress/themes/libre-2-child/
+Description: Libre 2 Child Theme (derived from Libre 2 version 2.2.1)
+Template: libre-2-wpcom
+Version: 1.0.0
+Author: Jonathan Cameron
+Author URI: http://jmcameron.com
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: libre-child
+*/
+
+#page {
+    margin-top: 0;
+}
+
+body, button, input, select, textarea {
+    line-height: 1.6 rem;
+}
+
+.site-header {
+    padding-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+p.site-title,
+h1.site-title {
+    font-size: 1.8rem;
+}
+
+header.entry-header div.entry-meta::after {
+    border-top: 0;
+}
+header.entry-header div.entry-meta span {
+    margin-bottom: 0;
+}
+
+.entry-title {
+    font-size: 2.2rem !important;
+}
+
+article.post h2.entry-title {
+    font-size: 1.4rem !important;
+}
+
+body.home article.post div.entry-content {
+    margin-bottom: 0;
+}
+
+body.home article.post div.entry-content h2 {
+    display: none;
+}
+
+body.home article.post div.entry-content p:last-child {
+    margin-bottom: 1rem;
+}
+
+article.post {
+    border-bottom: 1px solid #BBB;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+article.hentry {
+    margin-bottom: 0;
+}
+
+/* For newsletter table */
+table.newsletters th,
+table.newsletters td, table.meetings th, table.meetings td {
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+    font-size: 1rem;
+    width: 4rem;
+    border: 1px solid #000;
+}
+
+table.newsletters th, table.meetings th {
+    background-color: #DDD;
+}
+
+table.meetings th,
+table.meetings td {
+    text-align: left;
+}
+
+table.officers th,
+table.officers td,
+table.repeaters th,
+table.repeaters td,
+table.meetings th,
+table.meetings td {
+    border: 1px solid #000;
+    padding-left: 6px;
+}
+
+table.newsletters thead tr,
+table.newsletters thead tr th,
+table.officers thead tr,
+table.officers thead tr th,
+table.repeaters thead tr,
+table.repeaters thead tr th,
+table.meetings thead tr,
+table.meetings thead tr th {
+    background-color: #DDD;
+}
+
+table.repeaters td ul,
+table.repeaters td ol
+{
+    margin-bottom: 0.5em;
+}
+
+table.meshnodes th,
+table.meshnodes td {
+    border: 1px solid #000;
+}
+
+aside#custom_html-3 {
+    margin: 0;
+    padding: 1em;
+    background-color: #DDD;
+}
+
+aside#custom_html-3 address {
+    margin-bottom: 0.24em;
+}
+
+.bylaws dd {
+    margin-bottom: 1rem;
+}
+
+.bylaws dd p {
+    margin-bottom: 0.5rem;
+}
+
+img.qsl {
+    border: 1px solid black;
+}
+
+img.full-width {
+    width: 100%;
+}
+
+#search-2 {
+    margin-bottom: 2em;
+}
+
+div.site-info {
+    display: none;
+}
+
+/* TEST
+#page {
+    position: relative;
+}
+.widget_search {
+    position: absolute;
+    top: 14rem;
+    right: 20px;
+}
+
+input.search-field {
+    padding-left: 4px
+}
+*/
